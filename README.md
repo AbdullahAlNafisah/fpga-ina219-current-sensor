@@ -20,5 +20,5 @@ This project implements a custom I2C Master in SystemVerilog to interface with t
 
 - Ensure SDA/SCL lines are pulled up externally (e.g., 4.7kΩ to 3.3V)
 - Wrap the module in a top-level design with a state machine or control logic to manage transactions
-- `write_data` is used for a write operations, and `read_data` holds the output after completion of a read operations.
+- `write_data` is used for write operations, and `read_data` holds the output after completion of read operations.
 - Use `transaction_done` to detect when the transfer is finished.
